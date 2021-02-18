@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000000;
+}
+
+.component__wrapper {
+  width: 900px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.iconswitch__wrapper {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.switch__icon {
+  cursor: default;
+}
+
+.cardview {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  background-color: #f5f5f5;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 5px 3px #e5e5e5;
+  border-radius: 4px;
+}
+
+.card:nth-last-child(-n+3) {
+  margin-bottom: 0;
+}
+
+.listview {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.item {
+  width: 100%;
+  height: 60px;
+  background-color: #f5f5f5;
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.card__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+  height: 30%;
+  width: 100%;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-self: normal;
+  height: 30%;
+  width: 100%;
+}
+
+.card__name, .item__name {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.card__color, .item__color {
+  color: #777777;
+  font-weight: 400;
+}
+
+.card__price, .item__price {
+  color: #d43d2d;
+}
+
+.cart__button {
+  width: 95px;
+  height: 27px;
+  color: #d43d2d;
+  border: 1px solid #d43d2d;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+  outline: 0;
+}
+
+.cart__button:hover {
+  color: #ffffff;
+  background-color: #ff0000;
+}
